@@ -1,12 +1,20 @@
 import React from "react";
-import Navbar from "../../Components/Navbar/index";
 
-function index() {
+// Banners
+import AboutUs from "../../Banners/AboutUs";
+import ContactUs from "../../Banners/ContactUs";
+import Services from "../../Banners/Services";
+import TopBanner from "../../Banners/TopBanner";
+
+const HomeScreen = () => {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <>
+      <TopBanner />
+      <Services />
+      <AboutUs />
+      <ContactUs />
+    </>
   );
-}
+};
 
-export default index;
+export default HomeScreen;

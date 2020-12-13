@@ -1,0 +1,76 @@
+.contact-us {
+  display: flex;
+  height: 669px;
+  background: #1f2138;
+}
+.contact-us-form {
+  width: 40%;
+  height: 100%;
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
+.contact-us-form p {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 50px;
+  font-family: "rubik-bold";
+}
+.contact-us-input {
+  margin-bottom: 2.5rem;
+  display: block;
+}
+.contact-us-input label {
+  color: #b9b7b7;
+  font-size: 18px;
+  margin-bottom: 0.8rem;
+  font-family: "roboto-medium";
+}
+.contact-us-input input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  display: block;
+  border: none;
+}
+.contact-us-submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contact-us-submit button {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-family: "rubik-regular";
+  font-size: 24px;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  background: #281931;
+  box-shadow: 0px 0px 10px 1px #ddbbbb inset;
+}
+.contact-us-banner {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@font-face {
+  font-family: "rubik-bold";
+  src: url("../../Assets/fonts/Rubik-Bold.ttf");
+}
+@font-face {
+  font-family: "rubik-regular";
+  src: url("../../Assets/fonts/Rubik-Regular.ttf");
+}
+@font-face {
+  font-family: "roboto-medium";
+  src: url("../../Assets/fonts/Roboto-Medium.ttf");
+}

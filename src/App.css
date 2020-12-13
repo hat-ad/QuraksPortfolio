@@ -26,3 +26,15 @@ input:focus {
 input:active {
   outline: none;
 }
+textarea {
+  outline: none;
+}
+textarea:hover {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
+textarea:active {
+  outline: none;
+}

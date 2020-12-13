@@ -18,8 +18,10 @@
 .services-paragraph {
   font-family: "rubik-bold";
   font-size: 18px;
-  padding: 3rem;
+  padding: 4rem;
+  padding-right: 5rem;
   color: #d0cfcf;
+  line-height: 140%;
 }
 .services-img {
   margin: 0;

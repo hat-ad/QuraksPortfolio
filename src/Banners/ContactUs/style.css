@@ -54,6 +54,11 @@ textarea {
   color: #fff;
   background: #281931;
   box-shadow: 0px 0px 10px 1px #ddbbbb inset;
+  cursor: pointer;
+}
+.contact-us-submit button:active {
+  margin-top: 2px;
+  background: #28193109;
 }
 .contact-us-banner {
   width: 60%;

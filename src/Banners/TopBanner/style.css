@@ -1,0 +1,90 @@
+.container {
+  height: 768px;
+  overflow: hidden;
+  background-image: url("../../Assets/Svg/Purpel.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sub-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.banner {
+  /* position: absolute; */
+  width: 609px;
+  height: 450px;
+  left: 80px;
+  top: 131px;
+  margin-left: 190px;
+}
+.info {
+  /* position: absolute; */
+  width: 847px;
+  height: 500px;
+  left: 640px;
+  top: 266px;
+}
+.banner-title {
+  /* position: absolute; */
+ 
+  font-family: "amita-bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 140px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+.banner-text {
+  /* position: absolute; */
+
+  left: 811px;
+  top: 403px;
+
+  font-family: "amita-regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+.banner-img {
+  margin-left: 100px;
+  /* width: 609px; */
+  /* height: 450px; */
+  left: 80px;
+  top: 131px;
+}
+
+
+.banner-text-container{
+  margin-top: 100px;
+}
+.banner-img-container{
+  /* margin-top: 100px; */
+}
+@font-face {
+  font-family: "rubik-bold";
+  src: url("../../Assets/fonts/Rubik-Bold.ttf");
+}
+@font-face {
+  font-family: "rubik-regular";
+  src: url("../../Assets/fonts/Rubik-Regular.ttf");
+}
+@font-face {
+  font-family: "roboto-medium";
+  src: url("../../Assets/fonts/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: "amita-bold";
+  src: url("../../Assets/fonts/Amita-Bold.ttf");
+}
+@font-face {
+  font-family: "amita-regular";
+  src: url("../../Assets/fonts/Amita-Regular.ttf");
+}

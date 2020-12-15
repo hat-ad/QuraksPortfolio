@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  /* background-color: rgb(0, 0, 0); */
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 3fr 2fr;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+ul {
+  list-style-type: none;
+}
+nav svg {
+  padding-right: 10px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  padding-left: 10%;
+  padding-right: 10%;
+  align-self: baseline;
+}
+.brand {
+  display: inline;
+  margin-left: 60px;
+}
+
+nav span {
+  color: white;
+}
+nav h1 {
+  color: white;
+}
+

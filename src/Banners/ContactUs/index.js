@@ -5,26 +5,21 @@ export default function ContactUs() {
   return (
     <div className="contact-us">
       <div className="contact-us-form">
-        <p>Contact Us</p>
-        <div className="contact-us-input">
-          <label for="contact-us-input-name">Name</label>
-          <input
-            id="contact-us-input-name"
-            type="text"
-            maxLength="200"
-            required
-          />
+        <h1>Contact Us</h1>
+        <div className="input-box">
+          <input type="text" required="required" id="contact-us-input-name"/>
+          <span>Full Name</span>
         </div>
-        <div className="contact-us-input">
-          <label for="contact-us-input-email">Email</label>
-          <input id="contact-us-input-email" type="email" required />
+        <div className="input-box">
+          <input type="text" required="required" id="contact-us-input-email"/>
+          <span>Email Address</span>
         </div>
-        <div className="contact-us-input">
-          <label for="contact-us-input-message">Enter your message here</label>
-          <textarea name="message" rows="5" />
+        <div className="input-box">
+          <textarea cols="30" rows="5" type="text" required="required" id="contact-us-input-massage"/>
+          <span>Write Your Message</span>
         </div>
         <div className="contact-us-submit">
-          <button>Submit</button>
+          <input type="submit" value="Submit"/>
         </div>
       </div>
       <div className="contact-us-banner">

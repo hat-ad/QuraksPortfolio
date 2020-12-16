@@ -13,7 +13,7 @@ import { Grid } from "@material-ui/core";
 function index() {
   return (
     <>
-      <div className="container">
+      <div className="container" id="home">
         <NavBar />
         <Grid container xs={12} justify="center" alignItems="center" item>
           <Grid item lg={6} sm={6}>

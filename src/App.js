@@ -4,7 +4,7 @@ import "./App.css";
 import HomeScreen from "./Screens/HomeScreen";
 
 //components
-import NavBar from "./Components/Navbar";
+// import NavBar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 
 function App() {

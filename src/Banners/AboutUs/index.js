@@ -2,10 +2,10 @@ import React from "react";
 import "./style.css";
 
 function AboutUs() {
-  return ( <div>
-
-            <div className="services">
-                    {/* <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis sagittis varius nec tempus
+  return (
+    <div>
+      <div className="services" id="about_us">
+        {/* <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis sagittis varius nec tempus
                   facilisis
                   accumsan dui. Aliquam non nibh nunc morbi ac, sagittis. Eget eu, aliquet sit mattis sed. Eu
                   adipiscing
@@ -46,16 +46,16 @@ function AboutUs() {
                         </div>
                     </div>
                     </div> */}
-                </div>
-                <div className="gallery">
-                    <h2 className="heading">Our Projects</h2>
-                    <hr/>
-                    <img
-                        src={require("../../Assets/Svg/Carosel.svg").default}
-                        alt="aboutus-banner"
-                    />
-                </div>
-</div>
+      </div>
+      <div className="gallery">
+        <h2 className="heading">Our Projects</h2>
+        <hr />
+        <img
+          src={require("../../Assets/Svg/Carosel.svg").default}
+          alt="aboutus-banner"
+        />
+      </div>
+    </div>
   );
 }
 

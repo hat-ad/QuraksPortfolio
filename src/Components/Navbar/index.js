@@ -18,7 +18,7 @@ export default function NavBar() {
         <div className="nav">
           <ul className="nav-list">
             <li>
-              <a href="/">
+              <a href="#home">
                 <svg
                   width="26"
                   height="24"
@@ -36,7 +36,7 @@ export default function NavBar() {
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#about_us">
                 <svg
                   width="24"
                   height="20"
@@ -72,7 +72,7 @@ export default function NavBar() {
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#contact_us">
                 <svg
                   width="26"
                   height="24"

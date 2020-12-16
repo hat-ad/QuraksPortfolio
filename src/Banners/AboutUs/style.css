@@ -1,8 +1,29 @@
-.services
-{
-    background: #1F2138;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-.heading
+.aboutus
+{
+  background-color: #1F2138;
+  width: auto;
+  height: 100vh;
+  padding: 100px;
+  text-align: center;
+}
+.about-us-hr
+{
+  position: relative;
+  left: 40%;
+  width: 20%;
+  border: 0;
+  height: 2px;
+  margin: 0 0 40px 0;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.about-us-heading
 {
     color: #fff;
     font-size: 48px;
@@ -12,7 +33,7 @@
     font-family: "rubik-bold";
     text-align: center;
 }
-.text
+.about-us-text
 {
     color: #fff;
     font-size: 20px;
@@ -20,24 +41,103 @@
     letter-spacing: 1px;
     font-family: "rubik-bold";
 }
+.about-us-container
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.about-us-card
+{
+  margin-top: 50px;
+  position: relative;
+  background: #fff;
+  width: 280px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+.about-us-card img
+{
+  position: relative;
+  max-width: 150px;
+  max-height: 120px;
+  margin-top: 10px;
+}
+.card-head
+{
+  font-family:"rum";
+  font-size: 28px;
+  letter-spacing: 1.5px;
+  color: #EC5B53;
+  font-weight: 500;
+  text-align: center;
+  line-height: auto;
+}
+.card-head2
+{
+  font-family:"rum";
+  font-size: 28px;
+  letter-spacing: 2.5px;
+  color: #EC5B53;
+  font-weight: 500;
+  text-align: center;
+  line-height: auto;
+}
+.card-head-catagory
+{
+  font-size: 18px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  color: #c7c7c7;
+  font-family: "rum";
+  padding-bottom: 20px;
+}
+.card-head-details{
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+  
+}
+
+
+
+/* Gallery */
+
+
+
+.gallery-heading
+{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    font-family: "rubik-bold";
+    text-align: center;
+}
 .gallery
 {
     background: #3f8ffc;
     padding: 100px;
     padding-top: 300px;
-    margin-top: -300px;
+    margin-top: -100px;
     justify-content: space-between;
     align-items: center;
 }
-hr {
-    position: relative;
-    left: 40%;
-    width: 20%;
-    border: 0;
-    height: 2px;
-    margin: 0 0 40px 0;
-    background-color: #fff;
-    border-radius: 5px;
+.gallery-hr {
+  position: relative;
+  left: 40%;
+  width: 20%;
+  border: 0;
+  height: 2px;
+  margin: 0 0 40px 0;
+  background-color: #fff;
+  border-radius: 5px;
 }
 .gallery img
 {

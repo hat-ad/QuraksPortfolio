@@ -36,16 +36,17 @@
 .about-us-text
 {
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
-    letter-spacing: 1px;
-    font-family: "rubik-bold";
+    letter-spacing: 2.5px;
+    font-family: "rubik-regular";
+    line-height: 26px;
 }
 .about-us-container
 {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 60px;
@@ -101,7 +102,7 @@
   font-size: 18px;
   font-weight: 400;
   padding: 20px;
-  
+
 }
 
 

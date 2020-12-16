@@ -4,6 +4,7 @@
   background-image: url("../../Assets/Svg/Purpel.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .sub-container {
   display: grid;

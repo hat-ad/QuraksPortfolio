@@ -3,24 +3,28 @@
     "name": "Multiline Project Name 1",
     "image": "https://picsum.photos/663/427",
     "cover": "https://picsum.photos/1366/454",
-    "description": "This is a very very very long description about this project which is just only for testing purpose."
+    "description": "This is a very very very long description about this project which is just only for testing purpose.",
+    "link": "http://github.com"
   },
   {
     "name": "Multiline Project Name 2",
     "image": "https://picsum.photos/663/427",
     "cover": "https://picsum.photos/1366/454",
-    "description": "This is a very very very long description about this project which is just only for testing purpose."
+    "description": "This is a very very very long description about this project which is just only for testing purpose.",
+    "link": "http://github.com"
   },
   {
     "name": "Multiline Project Name 3",
     "image": "https://picsum.photos/663/427",
     "cover": "https://picsum.photos/1366/454",
-    "description": "This is a very very very long description about this project which is just only for testing purpose."
+    "description": "This is a very very very long description about this project which is just only for testing purpose.",
+    "link": "http://github.com"
   },
   {
     "name": "Multiline Project Name 4",
     "image": "https://picsum.photos/663/427",
     "cover": "https://picsum.photos/1366/454",
-    "description": "This is a very very very long description about this project which is just only for testing purpose."
+    "description": "This is a very very very long description about this project which is just only for testing purpose.",
+    "link": "http://github.com"
   }
 ]

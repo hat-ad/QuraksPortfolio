@@ -1,0 +1,20 @@
+.project-frame-container {
+  display: block;
+}
+.project-frame-container-cover {
+  width: 100%;
+}
+.project-frame-container-cover img {
+  width: 100%;
+}
+.project-frame-container-title {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.project-frame-container-body {
+  display: flex;
+}
+.project-frame-container-body img {
+  border-radius: 0px 68px 0px 68px;
+}

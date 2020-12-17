@@ -2,6 +2,9 @@ import React from "react";
 import data from "./projects.json";
 import "./style.css";
 
+// components
+import Navbar from "../../Components/Navbar";
+
 // banners
 import ProjectFrame from "../../Banners/ProjectFrame";
 
@@ -12,6 +15,7 @@ const ProjectScreen = () => {
 
   return (
     <>
+      <Navbar />
       <div>
         <input type="text" placeholder="Search..." required />
         <button>S</button>

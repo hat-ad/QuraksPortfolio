@@ -63,6 +63,7 @@
   /* height: 450px; */
   left: 80px;
   top: 131px;
+  object-fit: scale-down;
 }
 
 

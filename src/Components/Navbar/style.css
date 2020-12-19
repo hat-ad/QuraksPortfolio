@@ -10,35 +10,54 @@
   justify-content: flex-end;
   position: fixed;
 } */
+.container-nav {
+  position: fixed;
+  width: 100vw;
+  background: transparent;
+  transition: 1s;
+}
+.scroll{
+  transition: 1s;
+  background-color: black;
+}
+.nav {
 
-.nav-list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 ul {
   list-style-type: none;
 }
-nav svg {
-  padding-right: 10px;
-}
+
 a {
   text-decoration: none;
 }
-li {
-  /* padding-left: 10%; */
-  /* padding-right: 10%; */
-  align-self: baseline;
+
+.nav-list li {
+  display: inline-block;
+  padding: 0px 50px;
 }
-.brand {
-  display: inline;
-  margin-left: 60px;
+.nav-list span {
+  padding: 0px 10px;
+  color: white;
+
 }
 
- .nav span {
-   padding-left: 10px;
-  color: white;
+.nav-background {
+  background-color: rgba(255, 255, 255, 0);
 }
- .nav h1 {
-  color: white;
+.active {
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(50px);
 }
 
+.active-link {
+  padding: 5px;
+  border-bottom: rgb(255, 238, 0) 3px solid;
+}
+
+.nav-brand {
+  margin-top: 5px;
+  margin-left: 30px;
+}

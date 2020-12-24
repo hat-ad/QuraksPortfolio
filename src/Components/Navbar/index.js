@@ -24,7 +24,6 @@ export default function NavBar() {
   window.addEventListener("scroll", _handleScroll);
   return (
     <>
-    
       <div className={navBackground ? "container-nav scroll" : "container-nav"}>
         <nav className="nav">
           <div className="nav-brand">
@@ -47,7 +46,7 @@ export default function NavBar() {
                 </NavLink>
               </li>
               <li>
-                <NavLink activeClassName="active-link" to="/">
+                <NavLink activeClassName="active-link" to="/projects/">
                   <img src={Gallery} alt="gallery" />
                   <span>Gallery</span>
                 </NavLink>

@@ -1,5 +1,14 @@
 .project-frame-container {
   display: block;
+  width: 100%;
+  height: 80vh;
+}
+.project-frame-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 0.8rem;
 }
 .project-frame-container-cover {
   width: 100%;
@@ -14,7 +23,41 @@
 }
 .project-frame-container-body {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
 }
 .project-frame-container-body img {
-  border-radius: 0px 68px 0px 68px;
+  width: 500px;
+  height: 300px;
+  object-fit: scale-down;
+}
+.project-company-name {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.project-description {
+  display: block;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+.project-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.project-btn-container button {
+  background: #ffffff00;
+  border: 4px solid #fff;
+  border-radius: 20px;
+  padding: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #fff;
+}
+.project-date {
+  display: flex;
+  justify-content: space-around;
 }

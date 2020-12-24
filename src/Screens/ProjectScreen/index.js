@@ -8,17 +8,26 @@ import Navbar from "../../Components/Navbar";
 // banners
 import ProjectFrame from "../../Banners/ProjectFrame";
 
+// svgs
+import Logo from "../../Assets/Svg/LOGO.svg";
+
 const ProjectScreen = () => {
   const projects = data.map((data, index) => (
-    <ProjectFrame data={data} index={index} />
+    <ProjectFrame key={index} data={data} index={index} />
   ));
 
   return (
     <>
       <Navbar />
-      <div>
-        <input type="text" placeholder="Search..." required />
-        <button>S</button>
+      <div
+        className="gallery-top-banner"
+        style={{
+          background: `url(${
+            require("../../Assets/images/gallery_bg.jpg").default
+          })`,
+        }}
+      >
+        <img src={Logo} alt="logo" loading="lazy" />
       </div>
       {projects}
     </>
